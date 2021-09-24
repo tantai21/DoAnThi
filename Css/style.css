@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  justify-content: space-between;
+  height: 40px;
+  display: flex;
+  background-color: #01a0c0;
+  align-items: center;
+  color: white;
+}
+
+.header2 .logo,
+.header1 .lienhe {
+  margin-left: 7%;
+}
+.box2,
+.header1 .icon-social-networking {
+  margin-right: 7%;
+}
+.header1 .icon-social-networking i {
+  padding-right: 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Header 2 */
+
+.header2 {
+  margin-top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header2 .logo {
+  height: 180px;
+}
+
+.header2 i {
+  margin-bottom: 12px;
+  font-size: 40px;
+}
+.header2 .header2-item {
+  text-align: center;
+  color: #31b3cb;
+}
+
+.box,
+.box2 {
+  color: #fda134;
+  padding: 20px;
+  border: 3px solid #fda134;
+}
+
+/* NAV */
+.nav {
+  margin-top: -33px;
+  height: 42px;
+  background: #31b3cb;
+}
+.nav ul {
+  margin-left: 7%;
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li a {
+  line-height: 42px;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 16px;
+  font-size: 16px;
+  transition: 0.4s ease;
+}
+
+.nav ul li a:hover {
+  color: black;
+}
+
+/* Banner */
+
+.banner {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.banner .hinhBanner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* content */
+
+.Content {
+  margin: 0 7%;
+  margin-top: 12px;
+}
+.Content .boxed .head {
+  display: flex;
+  background: #eeeeee;
+  padding: 16px;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+
+.Content .boxed .head h3 {
+  color: #31b3cb;
+  font-family: "Italianno", cursive;
+  font-size: 40px;
+}
+
+.Content .boxed .head a {
+  text-decoration: none;
+}
+
+/* Main */
+
+.boxed-main .boxed-main-left {
+  background: url(../image/sapa.jpg) center / cover no-repeat;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.boxed-main .main-left2 {
+  background: url(../image/hotel1.jpg) center / cover no-repeat;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.boxed-main img {
+  width: 130px;
+  border-radius: 10px;
+
+  height: 130px;
+}
+.boxed-main {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  cursor: pointer;
+
+  grid-template-columns: 40% 20% 40%;
+}
+
+.boxed-main-left {
+  grid-column: 1/3;
+  grid-row: 1/4;
+  position: relative;
+}
+
+.boxed-main-left span {
+  color: #fff;
+  padding: 16px 60px;
+  background-color: #ff8600;
+  display: block;
+  position: absolute;
+  top: 35px;
+  left: -60px;
+  transform: rotate(-45deg);
+}
+
+.background-black {
+  background: rgba(0, 0, 0, 0.438);
+  height: 40%;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+}
+.background-black .about {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.background-black p {
+  margin-left: 2%;
+  padding: 6px 0;
+}
+.background-black .btn {
+  position: absolute;
+  color: #d68510;
+  right: 2%;
+  cursor: pointer;
+  padding: 6px 12px;
+  bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+}
+.image-item {
+  position: relative;
+  display: flex;
+  margin-right: 7%;
+}
+.image-item::after {
+  content: "";
+  height: 1px;
+  background-color: #ccc;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.content1 {
+  margin-left: 14px;
+  margin-top: 10px;
+}
+.content1 p:first-of-type,
+del {
+  color: rgb(129, 126, 126);
+}
+.content1 p:last-of-type {
+  font-size: 16px;
+  color: #03a5d6;
+  font-weight: bold;
+}
+.content1 h4,
+.content1 p,
+.content1 del {
+  margin-bottom: 6px;
+}
+
+.content1 a {
+  padding: 6px 12px;
+  background-color: #d68510;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 16px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.star1,
+.star2,
+.star3,
+.boxed-main-right-center .star4,
+.boxed-main-right-bottom .star4,
+.boxed-main-right-bottom .star5 {
+  margin-bottom: 6px;
+  color: rgb(255, 230, 2);
+}
+
+.btnXemThem a {
+  bottom: 0;
+}
+
+.boxed {
+  margin-top: 30px;
+}
+.head {
+  margin-bottom: 16px;
+}
+
+.boxedd {
+  margin-top: 150px;
+}
